@@ -2,10 +2,7 @@
 FROM alpine:latest
 
 # Install utility packages: vim, python3, pip, openssh, curl, git, and firewall
-RUN apk update && apk add --no-cache vim python3 py3-pip openssh curl git ufw
-
-# Verify installations (optional but useful for debugging)
-RUN python3 --version && pip3 --version && curl --version
+RUN apk update && apk add --no-cache vim python3 python3-dev py3-pip openssh curl git ufw
 
 # Set up SSH server
 RUN ssh-keygen -A && \
