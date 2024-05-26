@@ -9,6 +9,42 @@ The following utilities are included in this container:
 1. Python3
 2. VIM
 3. OpenSSH
+4. Curl
+5. Firewall
+6. Git
+
+## Package Manager
+
+apk (Alpine Package Keeper) is the package manager for ALpine Linux.
+Here are some of the apk commands.
+
+Updating the Package List
+
+`apk update`
+
+Installing a Package
+
+`apk add curl`
+
+Upgrading Installed Packages
+
+`apk upgrade`
+
+Removing a Package
+
+`apk del curl`
+
+Searching for a Package
+
+`apk search curl`
+
+Showing package info
+
+`apk info curl`
+
+Listing Installed Packages
+
+`apk list --installed`
 
 ## Pull, Build, Run, and Connect with Mount Binding
 
