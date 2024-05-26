@@ -16,7 +16,7 @@ The following utilities are included in this container:
 
 ## Package Manager
 
-apk (Alpine Package Keeper) is the package manager for ALpine Linux.
+apk (Alpine Package Keeper) is the package manager for Alpine Linux.
 Here are some of the apk commands.
 
 Updating the Package List
