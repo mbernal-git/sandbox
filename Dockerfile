@@ -1,8 +1,8 @@
 # Use the latest official Alpine image as the base image
 FROM alpine:latest
 
-# Install utility packages: vim, python3, openssh, curl, git, and firewall
-RUN apk update && apk add --no-cache vim python3 openssh curl git ufw
+# Install utility packages: vim, python3, pip, openssh, curl, git, and firewall
+RUN apk update && apk add --no-cache vim python3 py3-pip openssh curl git ufw
 
 # Set up SSH server
 RUN ssh-keygen -A && \

@@ -7,11 +7,12 @@ This container utilizes the alpine:latest image. The purpose of this sandbox is 
 The following utilities are included in this container:
 
 1. Python3
-2. VIM
-3. OpenSSH
-4. Curl
-5. Firewall
-6. Git
+2. Pip
+3. VIM
+4. OpenSSH
+5. Curl
+6. Firewall
+7. Git
 
 ## Package Manager
 
